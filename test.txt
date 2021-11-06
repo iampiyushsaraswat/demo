@@ -1,0 +1,2 @@
+ansible-playbook /sourcecode/playbook.yml
+rsync-avh /var/lib/jenkins/workspace/demo-project/*.html root@172.31.47.198:/opt/index.html
